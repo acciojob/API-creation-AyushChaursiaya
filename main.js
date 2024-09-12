@@ -51,7 +51,7 @@ function getPostsByTags(tags) {
     }
     if(matchPost) {
       filteredPosed[filteredPosed.length] = post;
-    }
+    }  
   }
   return filteredPosed;
 }
